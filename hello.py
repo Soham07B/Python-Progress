@@ -55,3 +55,10 @@ Each word is separated by an underscore character:
 my_variable_name = "John"
 
 """
+
+x,y,z="Apple", "Orange", "Cheery"
+
+x=y=z= "orange"
+fruits=["apple","orange","banana"]
+x,y,z=fruits
+
