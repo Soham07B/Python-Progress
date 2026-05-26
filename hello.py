@@ -119,3 +119,9 @@ if "free" in txt:
 print("expensive" not in txt)
 if "expensive" not in txt:
   print("No, 'expensive' is NOT present.")
+
+b="Hello World"
+print(b[2:7])
+print(b[:5])
+print(b[2:])
+print(b[-5:-2])
