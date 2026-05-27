@@ -123,5 +123,5 @@ if "expensive" not in txt:
 b="Hello World"
 print(b[2:7])
 print(b[:5])
-print(b[2:])
+print(b[2:]).
 print(b[-5:-2])
