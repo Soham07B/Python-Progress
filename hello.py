@@ -20,7 +20,7 @@ comment
 x=4
 x="Train" #Variables datatype is overwritten
 
-#type casting
+#type casting.
 
 x=str(3) #x is '3'
 x=int(3) #x is 3
