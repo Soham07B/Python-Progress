@@ -72,7 +72,7 @@ def func():
     x="Cheery"
 func()
 
-print(x)
+print(x).
 
 """
 Text Type:	str
