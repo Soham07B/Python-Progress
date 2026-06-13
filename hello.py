@@ -4,7 +4,7 @@ print("Hello, World!")
 #command
 a="apple"
 b=1
-print(a); print(b)
+print(a); print(b).
 if(5>2):
     print("5 is greater than 2")
 print("Same Line", end=" ")
