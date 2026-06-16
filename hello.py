@@ -30,7 +30,7 @@ print(x)
 
 print(type(x)) #print type of variable
 
-#Python is case sensitive
+#Python is case sensitive.
 
 """
 A variable name must start with a letter or the underscore character
