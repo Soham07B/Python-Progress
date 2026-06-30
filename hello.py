@@ -4,23 +4,23 @@ print("Hello, World!")
 #command
 a="apple"
 b=1
-print(a); print(b).
+print(a); print(b)
 if(5>2):
     print("5 is greater than 2")
 print("Same Line", end=" ")
 print("Same line too")
 print(2*5)
-print("I am", 23, "years old")........
+print("I am", 23, "years old")
 """
-This is a multi ...
-line .
-comment.
-.
+This is a multi 
+line 
+comment
+
 """
 x=4
 x="Train" #Variables datatype is overwritten
 
-#type casting.
+#type casting
 
 x=str(3) #x is '3'
 x=int(3) #x is 3
@@ -30,7 +30,7 @@ print(x)
 
 print(type(x)) #print type of variable
 
-#Python is case sensitive.
+#Python is case sensitive
 
 """
 A variable name must start with a letter or the underscore character
@@ -38,7 +38,7 @@ A variable name cannot start with a number
 A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
 Variable names are case-sensitive (age, Age and AGE are three different variables)
 A variable name cannot be any of the Python keywords.
-""".
+"""
 
 
 """
@@ -62,6 +62,7 @@ x=y=z= "orange"
 fruits=["apple","orange","banana"]
 x,y,z=fruits
 
+
 x="Awesome"
 def myFnc():
     print("Python is ", x);
@@ -72,7 +73,7 @@ def func():
     x="Cheery"
 func()
 
-print(x).
+print(x)
 
 """
 Text Type:	str
@@ -102,7 +103,8 @@ x = b"Hello"	bytes
 x = bytearray(5)	bytearray	
 x = memoryview(bytes(5))	memoryview	
 x = None	NoneType
-""" 
+"""
+
 a = "Hello, World"
 print (a[1])
 
@@ -135,8 +137,12 @@ print(a.lower())
 a = " Hello, World! "
 print(a.strip()) # returns "Hello, World!"
 
-a = "Hello, World!".
+a = "Hello, World!"
 print(a.replace("H", "J"))
 
 a = "Hello, World!"
-print(a.split(",")) # returns ['Hello', ' World!'].
+print(a.split(",")) # returns ['Hello', ' World!']
+
+thisList=["apple","cherry","mango","apple"]
+print (thisList)
+print ((len)thisList)
