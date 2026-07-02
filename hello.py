@@ -145,4 +145,4 @@ print(a.split(",")) # returns ['Hello', ' World!']
 
 thisList=["apple","cherry","mango","apple"]
 print (thisList)
-print ((len)thisList)
+print ((len)thisList).
