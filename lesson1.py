@@ -9,3 +9,12 @@ germanLevel="A2.2"
 print(f"I also know {programmingLanguages[3]}. And my language level is {germanLevel}")
 
 
+backend_skills = ["Python", "SQL", "FastAPI", "Docker"]
+print(backend_skills[0])
+print(backend_skills[-1])
+backend_skills[1]="PostgreSQL"
+backend_skills.append("Git")
+backend_skills.insert(2,"Redis")
+backend_skills.remove("Docker")
+print(backend_skills)
+print(len(backend_skills))
