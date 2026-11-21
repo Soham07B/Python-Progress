@@ -22,3 +22,30 @@ for skill in skills:
 students = ["Amit", "Priya", "Rahul", "Soham"]
 for index, student in enumnerate(students, start=1):
     print(index, student)
+
+languages = ["PYTHON", "java", "C++", "JavaScript", "RUBY"]
+for language in languages:
+    if "y" in language.lowe():
+        print(language)
+#list comprehension
+numbers=[10,20,30,40,50]
+result=[number for number in numbers if number>20]
+print(result)
+
+numbers = [5, 10, 15, 20, 25, 30]
+
+result=[number for number in numbers if number >=15]
+print(result)
+
+numbers = [5, 10, 15, 20, 25, 30]
+
+# Filtering
+result = [number for number in numbers if number > 10]
+
+
+# Transformation
+result = [number * 2 for number in numbers]
+#using both
+result = [number * 2 for number in numbers if number > 10]
+
+print(result)
