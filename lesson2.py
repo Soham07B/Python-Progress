@@ -49,3 +49,20 @@ result = [number * 2 for number in numbers]
 result = [number * 2 for number in numbers if number > 10]
 
 print(result)
+
+skills = {"Python", "SQL", "Python", "FastAPI", "SQL"}
+
+print(skills)
+
+languages = {"Python", "Java", "C++"}
+
+empty = set()
+
+skills = {"Python", "SQL"}
+
+skills.add("FastAPI")
+
+print(skills)
+skills.remove("SQL")
+
+skills.discard("Java")
