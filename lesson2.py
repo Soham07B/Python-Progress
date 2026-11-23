@@ -66,3 +66,10 @@ print(skills)
 skills.remove("SQL")
 
 skills.discard("Java")
+
+requested_permissions = {"read", "write", "delete"}
+allowed_permissions = {"read", "write"}
+
+unauthorized = requested_permissions - allowed_permissions
+
+print(unauthorized)
