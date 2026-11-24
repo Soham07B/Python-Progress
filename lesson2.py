@@ -73,3 +73,31 @@ allowed_permissions = {"read", "write"}
 unauthorized = requested_permissions - allowed_permissions
 
 print(unauthorized)
+
+
+employee = {
+    "name": "Rahul",
+    "age": 25,
+    "department": "IT",
+    "salary": 45000
+}
+
+employee["department"]="engineering"
+employee["location"]="Berlin"
+
+for key,value in employee.items():
+    print(key, value)
+
+
+employees =
+{
+    "employee1":{
+        "name":"Soham",
+        "department":"CSE"
+    },
+    "employee2":{
+        "name":"AJ",
+        "department":"IT"
+    }
+}
+print(employees["employee2"]["department"])
