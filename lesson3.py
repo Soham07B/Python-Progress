@@ -9,3 +9,7 @@ def calculate_average(numbers):
 result = calculate_average(numbers)
 
 print(result)
+
+
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
